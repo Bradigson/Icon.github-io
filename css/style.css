@@ -1,0 +1,199 @@
+.sesion1{
+    background:#283747; 
+    height:757px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+div{
+    background:#000;
+    width:450px;
+    height:670px;
+    border-radius:20px;
+    display:grid;
+    grid-template-columns:150px 150px 150px;
+    place-items:center;
+    grid-column-gap:-30px;
+    padding-right:20px;
+    padding-left:0px;
+}
+i{
+   
+    font-size:60px;
+}
+.bxs-gift:hover{
+
+    color:#1eff45;
+    text-shadow:0 0 10px #1eff45,
+    0 0 20px #1eff45,
+    0 0 40px #1eff45,
+    0 0 80px #1eff45;
+}
+.bxs-calendar:hover{
+
+    color:#fb1717;
+    text-shadow:0 0 10px #fb1717,
+    0 0 20px #fb1717,
+    0 0 40px #fb1717,
+    0 0 80px #fb1717;
+}
+.bxs-diamond:hover{
+
+    color:#3fe1ec;
+    text-shadow:0 0 10px #3fe1ec,
+    0 0 20px #3fe1ec,
+    0 0 40px #3fe1ec,
+    0 0 80px #3fe1ec;
+}
+
+.bxs-wine:hover{
+
+    color:#85035e;
+    text-shadow:0 0 20px #85035e,
+    0 0 30px #85035e,
+    0 0 50px #85035e,
+    0 0 90px #85035e;
+}
+.bxs-battery-charging:hover{
+    color:#3fec4d;
+    text-shadow:0 0 10px #3fec4d,
+    0 0 20px #3fec4d,
+    0 0 40px #3fec4d,
+    0 0 80px #3fec4d;
+}
+
+.bxs-camera:hover{
+
+    animation:camera 4s linear infinite;
+    animation-direction:alternate;
+}
+@keyframes camera{
+    0%{
+        color:#3fe1ec;
+        text-shadow:0 0 10px #3fe1ec,
+        0 0 20px #3fe1ec,
+        0 0 40px #3fe1ec,
+        0 0 80px #3fe1ec;
+    }
+    50%{
+
+        color:#1eff45;
+        text-shadow:0 0 10px #1eff45,
+        0 0 20px #1eff45,
+        0 0 40px #1eff45,
+        0 0 80px #1eff45;
+    }
+    100%{
+     
+        color:#fb1717;
+        text-shadow:0 0 10px #fb1717,
+        0 0 20px #fb1717,
+        0 0 40px #fb1717,
+        0 0 80px #fb1717;
+    }
+}
+
+
+.bxs-heart:hover{
+
+    color:#fb1717;
+    text-shadow:0 0 10px #fb1717,
+    0 0 20px #fb1717,
+    0 0 40px #fb1717,
+    0 0 80px #fb1717;
+}
+
+.bxs-cloud-lightning:hover{
+
+    animation:cloud 4s linear infinite;
+    animation-direction:alternate;
+}
+@keyframes cloud{
+    0%{
+
+        color:#fff;
+        text-shadow:0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 40px #fff,
+        0 0 80px #fff;
+    }
+    50%{
+
+        color:#a39e9e;
+        text-shadow:0 0 10px #a39e9e,
+        0 0 20px #a39e9e,
+        0 0 40px #a39e9e,
+        0 0 80px #a39e9e;
+    }
+    100%{
+
+        color:#555151;
+        text-shadow:0 0 10px #555151,
+        0 0 20px #555151,
+        0 0 40px #555151,
+        0 0 80px #555151;
+    }
+}
+
+
+
+.bxs-bell-ring:hover{
+    color:#f5c013;
+        text-shadow:0 0 10px #f5c013,
+        0 0 20px #f5c013,
+        0 0 40px #f5c013,
+        0 0 80px #f5c013;
+
+}
+.bx-world:hover{
+
+    color:#2206c2;
+    text-shadow:0 0 10px #2206c2,
+    0 0 20px #2206c2,
+    0 0 40px #2206c2,
+    0 0 80px #2206c2;
+}
+.bxs-cloud:hover{
+    color:#00c7bd;
+    text-shadow:0 0 10px #00c7bd,
+    0 0 20px #00c7bd,
+    0 0 40px #00c7bd,
+    0 0 80px #00c7bd;
+}
+
+
+.bxs-plane:hover{
+animation:camera 4s linear infinite;
+animation-direction:alternate;
+}
+
+
+.bxs-graduation:hover{
+
+    color:#160866;
+    text-shadow:0 0 10px #160866,
+    0 0 20px #160866,
+    0 0 40px #160866,
+    0 0 80px #160866;
+}
+
+
+.bxs-coffee-alt:hover{
+
+    color:#a84004;
+    text-shadow:0 0 10px #a84004,
+    0 0 20px #a84004,
+    0 0 40px #a84004,
+    0 0 80px #a84004;
+}
+
+
+.bx-log-in:hover{
+
+    color:#d300a5;
+    text-shadow:0 0 10px #d300a5,
+    0 0 20px #d300a5,
+    0 0 40px #d300a5,
+    0 0 80px #d300a5;
+}
+
